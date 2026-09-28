@@ -100,6 +100,38 @@ This module allows users to create a learning path based on their own interests 
 
 ---
 
+## Requirements
+
+Before running Scholar's Forge, make sure the following are available:
+
+- Python 3.x
+- Git (optional, if cloning the repository)
+- A terminal or command prompt
+- A code editor or IDE such as VS Code, PyCharm, or IDLE
+
+### Dependencies
+
+Scholar's Forge uses Python's built-in features and does not require any external Python packages.
+
+Therefore, no `pip install` command or `requirements.txt` file is required.
+
+---
+
+## Setup and Installation
+
+Follow the steps below to set up Scholar's Forge on your system.
+
+### Step 1: Install Python
+
+Download and install Python 3.x on your system.
+
+After installation, open a terminal or command prompt and verify that Python is installed:
+
+```bash
+python --version
+
+---
+
 ## System Structure
 
 The project is divided into separate Python modules:
@@ -107,7 +139,7 @@ The project is divided into separate Python modules:
 ```text
 Scholar-Forge/
 │
-├── main.py
+├── menu.py
 ├── tasks.py
 ├── subjects.py
 ├── books.py
